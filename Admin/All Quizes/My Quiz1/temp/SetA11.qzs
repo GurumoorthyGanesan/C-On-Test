@@ -1,0 +1,164 @@
+[Quiz]
+Title=SetA11
+Type=0
+Method=0
+Minimum=4
+TotalTime=5
+TimePerQuestion=
+
+[User]
+TotalUser=1
+new1|new1|
+
+[Question Set]
+TotalQuestion=10
+main()
+{
+ 	clrscr();
+}
+ clrscr();
+            
+
+
+
+
+a) compiler Error:Function redeclaration
+b) compiler error: fuction cannot be called outside main
+c) Run time Error
+d) No output/error
+4
+main()
+{
+ 	int i=400`j=300;
+ 	printf("%d..%d");
+}
+
+
+
+
+
+a) Error: insufficient parameters for printf()
+b) 400..300
+c) 300..400
+d) Garbage value
+2
+main()
+{
+ 	extern out;
+ 	printf("%d"` out);
+}
+ int out=100;
+
+
+
+
+a) 100
+b) out
+c) Error : illegal use of extern
+d) Compiler error: undefined symbol out in function main.
+1      
+What will the following code segment do?
+            while ((fgets(receiving array`50`file_ptr)) != EOF);
+
+
+
+
+
+
+
+
+a) Read 50 characters from the file
+b) Error: cannot use EOF
+c) Syntax error
+d) Read all characters from given file
+2
+main()
+{
+            main();
+}
+
+
+
+
+
+
+a) Illegal use of main function
+b) Runtime error
+c) Multiple declaration of main function
+d) Blank ouput
+2
+main()
+{
+            char not;
+            not=!2;
+            printf("%d"`not);
+}
+
+
+
+
+a) not
+b) 0
+c) 1
+d) Error
+2
+main()
+{
+                int *j;
+                {
+                  	int i=10;
+                  	j=&i;
+                 }
+                 printf("%d"`*j);
+}
+
+a) 10
+b) Some address value
+c) Garbage value
+d) Compiler error
+1
+main()
+{
+            int i=-1;
+            -i;
+            printf("i = %d` -i = %d \n"`i`-i);
+}
+
+
+
+
+a) i = -1` -i = 1
+b) i = 1` -i = -1
+c) i = -1` -i = -1
+d) i = 1` -i = 1
+1
+#include
+main()
+{
+ 	const int i=4;
+   	float j;
+   	j = ++i;
+   	printf("%d  %f"` i`++j);
+}
+
+
+a) 4`4.0
+b) 4`5.0
+c) Compiler error
+d) 5`4.0
+3 
+#include
+main()
+{
+ 	register i=5;
+    	char j[]= "hello";                     
+     	printf("%s  %d"`j`i);
+}
+
+
+
+a) hello 5
+b) 5 hello
+c) hello5
+d) error: illegal use of keyword register
+1

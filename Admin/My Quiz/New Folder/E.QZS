@@ -1,0 +1,141 @@
+[Quiz]
+Title=e
+Type=0
+Method=1
+Minimum=4
+TotalTime=2
+TimePerQuestion=5
+
+[User]
+TotalUser=1
+e|e|
+
+[Question Set]
+TotalQuestion=21
+Which one of the following is the file extension for Word 2000 templates?
+`doc
+`dot
+`rtf
+`wpd
+2
+Which one of the following characters CANNOT be used in a Word 2000 filename?
+$  
++
+-
+*
+4
+Which one of the following is a simple way to view the subsequent page of a document in the Print Preview view?
+Insert button
+Page Down key
+Right arrow key
+View -> Next Page
+2
+Which one of the following is the default file extension for Word 2000 documents?
+`dot
+`rtf
+`doc
+`wpd
+3
+Which one of the following moves the cursor to the beginning of the next page?
+Ctrl+Down Arrow
+Ctrl+Page Down
+Ctrl+End
+Page Down
+2
+Which one of the following shortcut keys moves the insertion point to the top of the document window that is currently viewed?
+Alt + Ctrl + PageUp
+Ctrl + Up arrow
+Ctrl + PageUp
+Home
+3
+Which one of the following is a simple method of getting a blank line between items in a bulleted or numbered list?
+Tab down to next line then press Enter`
+Press Shift+Enter instead of Enter`
+Insert -> single line
+Press Ctrl+Enter instead of Enter`
+2
+Which one of the following options is NOT available under the Print What dropdown list in the Print dialog box?
+Field Codes
+Styles
+Document Properties
+Comments
+1
+Where does Word automatically store a new style that has been created in the current document?
+In the Style gallery
+In the Document template
+In the Style dropdown list
+In the Template gallery
+3
+Which shortcut key moves the cursor to the last cell of the current row in a table?
+Ctrl + Tab
+Alt + Right arrow
+Alt + End
+End
+3
+Which one of the following selections is used to reset the text color to the default text color?
+Normal color
+Automatic color
+Black color
+Default color
+2
+Which one of the following menu items allows you to schedule an online meeting?
+View -> Toolbars -> Web
+Tools -> Online Collaboration
+Tools -> Web Tools
+View -> Toolbars -> Web Tools
+2
+By default in which folder does Word save Documents?
+Office\Documents
+Data\Word
+My Documents
+Office\Word
+3
+By default where are templates stored in Word?
+In the default Template folder
+In the Windows\System folder
+In the default Document folder
+In the Program Files\Office folder
+1
+Which one of the following features needs to be accessed to turn off the Grammar Check?
+Tools -> Options -> Spelling and Grammar
+Tools -> Spelling and Grammar Wizard
+Tools -> Options -> Edit -> Check Grammar As You Type
+Tools -> Grammar Wizard
+1
+Which one of the following procedures allows viewing of a document from a web browser?
+View -> Document Map
+View -> Online Layout
+View -> Web Page Preview
+File -> Web Page Preview
+4
+Which one of the following is NOT one of the designs available in the Letter Wizard?
+Normal
+Contemporary Letter
+Memorandum
+Professional Letter
+3
+In which way you can know the total lines of a document?
+Select Format -> Line Count 
+Select the whole document and choose View -> Total Lines
+Select Tools -> Properties and select the Statistics tab
+Select Tools -> Word Count
+4
+Which is the shortcut key for bringing up the Replace dialog box?
+Alt + Ctrl + R
+Ctrl + R
+Ctrl + H
+Alt + R
+3
+Which is NOT a wizard that you can use in Microsoft Word 2000 ?
+Letter Wizard
+E-mail Wizard
+Calendar Wizard
+Web Page Wizard
+2
+Which is the easiest method of saving a word document in web-page format?
+Select File -> Save as web page
+Select Tools -> Convert -> To web page
+Select Save As and then choose web page file from the Save as type combo box
+Word documents can not be saved as web page
+1
+

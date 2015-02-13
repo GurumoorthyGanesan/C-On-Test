@@ -1,0 +1,165 @@
+[Quiz]
+Title=SetH1
+Type=0
+Method=0
+Minimum=4
+TotalTime=7
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=10
+Predict o/p  of the following code
+main()
+{
+ 	int i=5;
+ 	printf("%d%d%d%d%d"`i++`i--`++i`--i`i);
+}
+
+
+
+
+65655
+54554
+56655
+45545
+4
+penny = one 
+nickel = five 
+dime = ten 
+quarter = twenty-five 
+How is enum used to define the values of the American coins listed above? 
+
+
+
+
+
+enum coin {(penny`1)` (nickel`5)` (dime`10)` (quarter`25)}; 
+enum coin ({penny`1}` {nickel`5}` {dime`10}` {quarter`25}); 
+enum coin {penny=1`nickel=5`dime=10`quarter=25};
+enum coin (penny=1`nickel=5`dime=10`quarter=25); 
+3
+char ** array [12][12][12]; 
+Consider array` defined above` Which one of the following definitions and initializations of p is valid? 
+
+
+
+
+
+
+
+
+char ** (* p) [12][12] = array;
+char ***** p = array; 
+char * (* p) [12][12][12] = array; 
+const char ** p [12][12][12] = array; 
+1
+Which one of the following statements allocates enough space to hold an array of 10 integers 
+that are initialized to 0? 
+
+
+
+
+
+
+
+
+int *ptr = (int *) malloc(10` sizeof(int)); 
+int *ptr = (int *) calloc(10` sizeof(int)); 
+int *ptr = (int *) malloc(10*sizeof(int)); 
+int *ptr = (int *) alloc(10*sizeof(int)); 
+3
+Which one of the following provides conceptual support for function calls? 
+
+
+
+
+
+
+
+
+
+The system stack
+The data segment 
+The processor's registers 
+The heap 
+1
+Predict o/p  of the following code
+#define square(x) x*x ---2
+main()
+{
+ 	int i;
+ 	i = 64/square(4);
+ 	printf("%d"`i);
+}
+
+
+
+ 4
+ 1
+ 64
+ Error
+3
+Predict o/p  of the following code
+main()
+{
+            char *cptr`c;
+            void *vptr`v;
+            c=10;  v=0;
+            cptr=&c; vptr=&v;
+            printf("%c%v"`c`v);
+}
+
+
+ 10 0
+ 10
+ Compiler error
+ Illegal use of pointer
+3
+What does this imply 
+ char* const a; 
+
+
+
+
+
+
+
+
+pointer to a constant char
+constant pointer to char
+both of above
+none of above
+2 
+Predict o/p  of the following code
+void main() 
+{
+ 	char far *farther`*farthest;
+   	printf("%d``%d"`sizeof(farther)`sizeof(farthest));
+}
+
+
+
+
+ 4``2
+ 2``2
+ 4``4
+ 2``4
+1  
+what will be the position of the file marker? 
+             fseek(ptr`0`SEEK_CUR);
+ 
+
+
+
+
+
+
+
+ Start of file
+ End of file
+ Current position of file
+ Syntax error
+2

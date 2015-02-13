@@ -1,0 +1,58 @@
+[Quiz]
+Title=lolita
+Type=0
+Method=0
+Minimum=4
+TotalTime=10
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=3
+Predict o/p  of the following code
+#include 
+main()
+{
+char s[]={'a'`'b'`'c'`'\n'`'c'`'\0'};
+char *p`*str`*str1;
+p=&s[3];
+str=p;
+str1=s;
+printf("%c"`++*p + ++*str1-32);}
+b
+m
+q
+r
+2
+If the binary equivalent of 5.375 in normalised form is 0100 0000 1010 1100 0000 0000 0000 0000 ` what would be 
+the output of the following program?
+main(){
+ float a=5.375;
+char *p;
+int i ;
+p=(char*)&a;
+for (i=0;i<=3;i++){
+   printf("%02x"`(unsigned char)p[i]);}
+}
+ 40 AC 00 00
+ 04 CA 00 00
+ 00 00 AC 40
+ 00 00 CA 04
+3
+int fibonacci (int n){ 
+ switch (n)
+ { 
+  default: 
+      return (fibonacci(n - 1) + fibonacci(n - 2)); 
+  case 1: 
+  case 2: 
+ } 
+  return 1; }
+The function above has a flaw that may result in a serious error during some invocations. Which one of the following describes the deficiency illustrated above? 
+For some values of n` the environment will almost certainly exhaust its stack space before the calculation completes.
+An error in the algorithm causes unbounded recursion for all values of n. 
+A break statement should be inserted after each case. Fall-through is not desirable here. 
+The fibonacci() function includes calls to itself. This is not directly supported by Standard C due to its unreliability. 
+1

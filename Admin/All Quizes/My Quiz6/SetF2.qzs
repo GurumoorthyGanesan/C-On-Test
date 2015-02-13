@@ -1,0 +1,149 @@
+[Quiz]
+Title=SetF2
+Type=0
+Method=0
+Minimum=4
+TotalTime=9
+TimePerQuestion=
+
+[User]
+TotalUser=1
+p1|p1|
+
+[Question Set]
+TotalQuestion=9
+main()
+{
+  	char *p;
+  	int *q;
+ 	long *r;
+ 	p=q=r=0;
+ 	p++;
+ 	q++;
+ 	r++;
+ 	printf("%p...%p...%p"`p`q`r);}
+a) 0001…0002…0004
+b) 0002…0003…0005
+c) Error: illegal use of pointers
+d) 0000…0000…0000
+1
+main()
+{
+ 	char c=' '`x`convert(z);
+ 	getc(c);
+ 	if((c>='a') && (c<='z'))
+ 	x=convert(c);
+ 	printf("%c"`x);
+}
+convert(z)
+{return z-32;}
+a) Error wrong format of getc()
+b) Error:illegal declaration of convert()
+c) Both of above
+d) None of above
+3
+# include 
+int one_d[]={1`2`3};
+main()
+{
+ 	 int *ptr; 
+ 	ptr=one_d;
+ 	ptr+=3;
+ 	printf("%d"`*ptr);
+}
+
+a) 123
+b) 321
+c) Compiler error
+d) Garbage value
+4
+  main()
+{
+ int i =0;j=0;
+ if(i && j++)
+            printf("%d..%d"`i++`j);
+printf("%d..%d`i`j);
+}
+
+
+
+a)0..0
+b)1..0
+c)0..1
+d)1..1
+1
+ main(){
+  int a= 0;int b = 20;char x =1;char y =10;
+  if(a`b`x`y)
+        printf("hello");
+ }
+
+
+
+
+
+a)020l10hello
+b)Hello020l10
+c)020l10
+d)hello
+4 
+main()
+{
+char *p;
+p="%d\n";
+           p++;
+           p++;
+           printf(p-2`300);
+}
+
+
+a)302
+b)304
+c)Compiler error
+d)300
+4
+ main(){
+ char a[100];
+ a[0]='a';a[1]]='b';a[2]='c';a[4]='d';
+ abc(a);
+}
+abc(char a[]){
+ a++; 
+             printf("%c"`*a);
+ a++;
+ printf("%c"`*a);}
+a)ab
+b)ac
+c)abc
+d)bc
+4
+ void main()
+{
+            static int i=5;
+            if(--i){
+                        main();
+                        printf("%d "`i);
+            }
+}
+
+
+a)1 2 3 4
+b)5 4 3 2
+c)5 4 3 2 1
+d)0 0 0 0
+4
+ void main()
+{
+            char a[]="12345\0";
+            int i=strlen(a);
+            printf("here in 3 %d\n"`++i);
+}
+
+
+
+
+a)here in 3 6
+b)here in 3 5
+c)here in 3 12345
+d)here in 23456
+1

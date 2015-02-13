@@ -1,0 +1,213 @@
+[Quiz]
+Title=C on Test - One Mark Questions
+Type=0
+Method=0
+Minimum=4
+TotalTime=5
+TimePerQuestion=
+
+[User]
+TotalUser=50
+p1|p1|
+p2|p2|
+p3|p3|
+p4|p4|
+p5|p5|
+p6|p6|
+p7|p7|
+p8|p8|
+p9|p9|
+p10|p10|
+p11|p11|
+p12|p12|
+p13|p13|
+p14|p14|
+p15|p15|
+p16|p16|
+p17|p17|
+p18|p18|
+p19|p19|
+p20|p20|
+p21|p21|
+p22|p22|
+p23|p23|
+p24|p24|
+p25|p25|
+p26|p26|
+p27|p27|
+p28|p28|
+p29|p29|
+p30|p30|
+p31|p31|
+p32|p32|
+p33|p33|
+p34|p34|
+p35|p35|
+p36|p36|
+p37|p37|
+p38|p38|
+p39|p39|
+p40|p40|
+p41|p41|
+p42|p42|
+p43|p43|
+p44|p44|
+p45|p45|
+p46|p46|
+p47|p47|
+p48|p48|
+p49|p49|
+p50|p50|
+
+[Question Set]
+TotalQuestion=10
+Predict o/p  of the following code
+main()    
+{
+            char string[]="Hello World";
+            display(string);
+}
+void display(char *string)
+{
+            printf("%s"`string);
+}
+ Hello World
+"Hello World”
+Compiler Error
+Linker Error
+3  
+Predict o/p  of the following code
+main()
+{
+int i=10;
+i=!i>14;
+Printf ("i=%d"`i);
+}
+
+
+
+i=10
+i=0
+i=1
+Syntax Error
+2
+Predict o/p  of the following code
+#define clrscr() 100
+main()
+{
+ 	clrscr();
+ 	printf("%d\n"`clrscr());
+}
+
+
+
+100
+screen will be cleared
+ Error : Cannot define macro for a function
+ clrscr()
+1
+Predict o/p  of the following code
+#include
+#define a 10
+main()
+{
+ 	#define a 50
+ 	printf("%d"`a);
+}
+
+
+50
+10
+Error: Macro cannot be defined in main function
+Error: Redefination of Macro
+1
+Predict o/p  of the following code
+main()
+{
+ 	int i=5;
+ 	printf("%d%d%d%d%d"`i++`i--`++i`--i`i);
+}
+
+
+
+
+65655
+54554
+56655
+45545
+4
+What are the files which are automatically opened when a C file is executed?
+
+
+
+
+
+
+
+
+
+stdin`stdout
+stdio
+stdin`stdout`stderr
+none
+3
+What does this imply 
+ const char *a;
+
+
+
+
+
+
+
+
+pointer to a constant char
+constant pointer to char
+both of above
+none of above
+1
+Which one of the following provides conceptual support for function calls? 
+
+
+
+
+
+
+
+
+
+The system stack
+The data segment 
+The processor's registers 
+The heap 
+1
+Which one of the following will read a character from the keyboard and will store it 
+in the variable c? 
+
+
+
+
+
+
+
+
+c = getc(); 
+getc( &c ); 
+getchar( &c ) 
+c = getchar(); 
+4
+Which one of the following statements allocates enough space to hold an array of 10 integers 
+that are initialized to 0? 
+
+
+
+
+
+
+
+
+int *ptr = (int *) malloc(10` sizeof(int)); 
+int *ptr = (int *) calloc(10` sizeof(int)); 
+int *ptr = (int *) malloc(10*sizeof(int)); 
+int *ptr = (int *) alloc(10*sizeof(int)); 
+3

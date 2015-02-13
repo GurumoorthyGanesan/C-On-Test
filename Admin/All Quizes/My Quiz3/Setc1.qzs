@@ -1,0 +1,163 @@
+[Quiz]
+Title=SetC1
+Type=0
+Method=0
+Minimum=4
+TotalTime=5
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=10
+Predict o/p  of the following code
+main(){ 
+ 	static char names[5][20]={"pascal"`"ada"`"cobol"`"fortran"`"perl"};
+    	int i;
+ 	char *t;
+     	t=names[3];
+     	names[3]=names[4];
+     	names[4]=t; 
+     	for (i=0;i<=4;i++)
+            printf("%s"`names[i]);}
+ pascaladacobolfortranperl
+ pascal ada cobol fortran perl
+ Compiler error: Lvalue required in function main
+ Error:cannot swap static variables
+3
+Predict o/p  of the following code
+void main() 
+{
+            int i=5;
+            printf("%d"`i++ + ++i);
+}
+
+
+
+
+ 5
+11
+12
+Output cannot be predicted
+4
+Predict o/p  of the following code
+void main() 
+{
+ 	char far *farther`*farthest;
+   	printf("%d..%d"`sizeof(farther)`sizeof(farthest));
+}
+
+
+
+
+ 4..2
+ 2..2
+ 4..4
+ 2..4
+1  
+Predict o/p  of the following code
+main() 
+{
+ 	printf("%d"` out);
+}
+ 	int out=100;
+
+
+
+
+ Compiler error: undefined symbol out in function main.
+ Compiler error: illegal declaration of variable out
+ 100
+ out
+1
+Predict o/p  of the following code
+main() 
+{
+            char *str1="abcd";
+            char str2[]="abcd";
+            printf("%d %d %d"`sizeof(str1)`sizeof(str2)`sizeof("abcd"));
+}
+
+
+
+ 2 5 5
+ 2 4 4
+ 4 4 4
+ 4 5 4
+1
+what will be the position of the file marker? 
+             fseek(ptr`0`SEEK_CUR);
+ 
+
+
+
+
+
+
+
+ Start of file
+ End of file
+ Current position of file
+ Syntax error
+2
+What does this imply 
+ char const *a;
+ 
+
+
+
+
+
+
+
+pointer to a constant char
+constant pointer to char
+both of above
+none of above
+1 
+According to the Standard C specification` what are the respective minimum sizes (in bytes) 
+ of the following three data types: short; int; and long? 
+
+
+
+
+
+
+
+
+1` 2` 4 
+1` 2` 8 
+2` 2` 4 
+2` 4` 8 
+3
+char txt [20] = "Hello world!\0";  
+How many bytes are allocated by the definition above? 
+
+
+
+
+
+
+
+
+11 bytes 
+12 bytes 
+13 bytes 
+20 bytes
+4
+How does variable definition differ from variable declaration? 
+
+
+
+
+
+
+
+
+
+Variables may be defined many times` but may be declared only once.
+Variable definition must precede variable declaration. 
+There is no difference in C between variable declaration and variable definition. 
+None of the above
+1

@@ -1,0 +1,74 @@
+[Quiz]
+Title=mil
+Type=0
+Method=0
+Minimum=4
+TotalTime=3
+TimePerQuestion=
+
+[User]
+TotalUser=1
+mil|mil|
+
+[Question Set]
+TotalQuestion=10
+In what way can you modify a table if you need to add your own data-entry checks?
+f
+g
+h
+n
+b
+b
+Design View  
+The Database Wizard
+Datasheet View
+The Table Wizard
+1
+Which one of the following actions can you NOT perform with the table wizard?
+k
+d
+c
+c
+c
+c
+Choose fields  
+Join fields  
+Create a Key Field  
+Rename fields  
+3
+Which one of the following is NOT a method to create a report?  
+v
+c
+s
+s
+c
+v
+Chart Wizard  
+Report Wizard  
+AutoReport: Columnar  
+AutoReport: Justified  
+1
+What desktop database engine is used in Access 2000?  
+as
+g
+fg
+cv
+xc
+c
+Microsoft Jet 3`5  
+Microsoft Jet 3`51  
+Microsoft Jet 4`0  
+Microsoft Jet 7`0  
+3
+What type of Office document CANNOT be inserted as an object onto a form?  
+cx
+fg
+c
+ds
+cx
+ds
+Excel Worksheet  
+PowerPoint Presentation  
+Excel Chart  
+Publisher Publication  
+4

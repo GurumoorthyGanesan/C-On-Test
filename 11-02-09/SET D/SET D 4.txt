@@ -1,0 +1,44 @@
+In the following pgm add a  stmt in the function  fun such that the address of  
+'a' gets stored in 'j'.
+main(){
+  int * j;
+  void fun(int **);
+  fun(&j);   }
+ void fun(int **k) {
+  int a =0;
+  /* add a stmt here*/
+ }
+*j = &a
+*k=a
+j = &a
+k = &a
+2
+What would be the output of the following code?
+main()
+{	char huge*a=0x00000120;
+	char huge*b=0x00100020;
+	char huge*c=0x00120000;
+
+	if(a==b)	printf("\nHello");
+	if (a==c)  printf(" Hi");
+	if (b==c)	printf(" Hello Hi");
+	if(a>b && a>c && b>c) printf("\nBye");}
+Bye
+Hello Hi Bye
+Hello Hi Hello hi
+Declaration Syntax Error
+3
+What does the following program do?
+main()
+{
+unsigned int num;
+int i;
+scanf("%u",&num);
+for(i=0;i<16;i++)
+printf("%d",(num<<i&1<<15)?1:0);
+}
+It prints all even bits from num
+It prints all odd bits from num
+It prints binary equvalent of num
+None of the above
+3

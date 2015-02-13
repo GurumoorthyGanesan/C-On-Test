@@ -1,0 +1,163 @@
+[Quiz]
+Title=
+Type=0
+Method=0
+Minimum=4
+TotalTime=
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=10
+Predict o/p  of the following code
+main()    
+{
+            char string[]="Hello World";
+            display(string);
+}
+void display(char *string)
+{
+            printf("%s"`string);
+}
+ Hello World
+"Hello World”
+Compiler Error
+Linker Error
+3  
+Predict o/p  of the following code
+main()
+{
+int i=10;
+i=!i>14;
+Printf ("i=%d"`i);
+}
+
+
+
+i=10
+i=0
+i=1
+Syntax Error
+2
+Predict o/p  of the following code
+#define clrscr() 100
+main()
+{
+ 	clrscr();
+ 	printf("%d\n"`clrscr());
+}
+
+
+
+100
+screen will be cleared
+ Error : Cannot define macro for a function
+ clrscr()
+1
+Predict o/p  of the following code
+#include
+#define a 10
+main()
+{
+ 	#define a 50
+ 	printf("%d"`a);
+}
+
+
+50
+10
+Error: Macro cannot be defined in main function
+Error: Redefination of Macro
+1
+Predict o/p  of the following code
+main()
+{
+ 	int i=5;
+ 	printf("%d%d%d%d%d"`i++`i--`++i`--i`i);
+}
+
+
+
+
+65655
+54554
+56655
+45545
+4
+What are the files which are automatically opened when a C file is executed?
+
+
+
+
+
+
+
+
+
+stdin`stdout
+stdio
+stdin`stdout`stderr
+none
+3
+What does this imply 
+ const char *a;
+
+
+
+
+
+
+
+
+pointer to a constant char
+constant pointer to char
+both of above
+none of above
+1
+Which one of the following provides conceptual support for function calls? 
+
+
+
+
+
+
+
+
+
+The system stack
+The data segment 
+The processor's registers 
+The heap 
+1
+Which one of the following will read a character from the keyboard and will store it 
+in the variable c? 
+
+
+
+
+
+
+
+
+c = getc(); 
+getc( &c ); 
+getchar( &c ) 
+c = getchar(); 
+4
+Which one of the following statements allocates enough space to hold an array of 10 integers 
+that are initialized to 0? 
+
+
+
+
+
+
+
+
+int *ptr = (int *) malloc(10` sizeof(int)); 
+int *ptr = (int *) calloc(10` sizeof(int)); 
+int *ptr = (int *) malloc(10*sizeof(int)); 
+int *ptr = (int *) alloc(10*sizeof(int)); 
+3

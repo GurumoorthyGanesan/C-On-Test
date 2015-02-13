@@ -1,0 +1,27 @@
+[Quiz]
+Title=sample
+Type=0
+Method=0
+Minimum=4
+TotalTime=1
+TimePerQuestion=
+
+[User]
+TotalUser=1
+p1|p1|
+
+[Question Set]
+TotalQuestion=2
+What value will be stored in z if the following code is executed?
+
+main()
+{
+	int x = 5`y = (-10)`z;
+	int a = 4`b = 2;
+       z =  x+ + + + +y*b/a;
+}
+
+-2
+0
+1
+2

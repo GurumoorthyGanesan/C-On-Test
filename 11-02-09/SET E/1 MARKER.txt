@@ -1,0 +1,148 @@
+Code:
+int z,x=5,y=-10,a=4,b=2; 
+z = x++ - --y * b / a;
+What number will z in the sample code above contain? 
+
+
+
+
+
+
+5 
+6 
+10
+11
+3 
+With every use of a memory allocation function, what function should be used to release allocated memory which is no longer needed?
+
+
+
+
+
+
+
+
+unalloc() 
+dealloc()
+release() 
+free()
+4
+Code:
+void *ptr;
+myStruct myArray[10];
+ptr = myArray;
+Which of the following is the correct way to increment the variable "ptr"? 
+
+
+
+
+
+ptr = ptr + sizeof(myStruct);
+ptr = ptr + sizeof(myArray); 
+increment(ptr); 
+ptr = ptr + sizeof(ptr); 
+1
+"My salary was increased by 15%!" 
+Select the statement which will EXACTLY reproduce the line of text above. 
+
+
+
+
+
+
+
+
+printf("\"My salary was increased by 15/%\!\"\n"); 
+printf("My salary was increased by 15%!\n"); 
+printf("My salary was increased by 15'%'!\n"); 
+printf("\"My salary was increased by 15%%!\"\n");
+4
+int testarray[3][2][2] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}; 
+What value does testarray[2][1][0] in the sample code above contain? 
+
+
+
+
+
+
+
+
+3 
+5 
+7 
+11
+4
+Code:
+int a=10,b;
+b=a++ + ++a;
+printf("%d,%d,%d,%d",b,a++,a,++a);
+what will be the output when following code is executed
+
+
+
+
+
+12,10,11,13
+22,10,11,13
+12,11,11,11
+22,13,13,13
+4
+11 ^ 5 
+What does the operation shown above produce? 
+
+
+
+
+
+
+
+
+1 
+6 
+8 
+14  
+4
+#define MAX_NUM 15 
+Referring to the sample above, what is MAX_NUM? 
+
+
+
+
+
+
+
+
+MAX_NUM is an integer variable. 
+MAX_NUM is a precompiler constant. 
+MAX_NUM is a preprocessor macro. 
+MAX_NUM is an integer constant. 
+3
+Which one of the following functions is the correct choice for moving blocks of binary data that are of arbitrary size and position in memory? 
+
+
+
+
+
+
+
+
+memcpy() 
+strncpy() 
+strcpy() 
+memmove()
+4
+int var1; 
+If a variable has been declared with file scope, as above, can it safely be accessed globally from another file? 
+
+
+
+
+
+
+
+
+Yes; it can be referenced through the register specifier. 
+No; it would have to have been initially declared as a static variable. 
+No; it would need to have been initially declared using the global keyword.
+Yes; it can be referenced through the publish specifier. 
+3

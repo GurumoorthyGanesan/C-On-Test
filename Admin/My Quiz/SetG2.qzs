@@ -1,0 +1,150 @@
+[Quiz]
+Title=SetG2
+Type=0
+Method=0
+Minimum=4
+TotalTime=14
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=9
+main( ){
+  int a[ ] = {10`20`30`40`50}`j`*p;
+  for(j=0; j<5; j++)    {
+printf(“%d ” `*a); 
+a++;    }
+    p = a;
+   for(j=0; j<5; j++)       {
+printf(“%d  ” `*p); 
+p++;      }
+ }
+10 20 30 40 50 <Some garbage values>
+10 20 30 40 50
+Compiler error
+10 20 30 40 50 10 20 30 40 50 
+3
+char buf [] = "Hello world!"; 
+char * buf = "Hello world!"; 
+In terms of code generation` how do the two definitions of buf` both presented above` differ? 
+
+
+
+
+
+
+
+The first definition certainly allows the contents of buf to be safely modified at runtime; the second definition does not` 
+The first definition is not suitable for usage as an argument to a function call; the second definition is` 
+The first definition is not legal because it does not indicate the size of the array to be allocated; the second definition is legal` 
+They do not differ -- they are functionally equivalent`
+4
+#include
+main(){
+struct xx
+{
+      int x=3;
+      char name[]="hello";
+ };
+struct xx *s;
+printf("%d"`s->x);
+printf("%s"`s->name);}
+3 hello
+Compiler Error
+Error:structure cannot be declared inside main
+None of these
+2
+Predict o/p  of the following code
+main()
+{
+            char *p;
+            printf("%d %d "`sizeof(*p)`sizeof(p));
+}
+ 
+
+
+
+2 2
+1 1
+1 2
+2 1
+3
+Predict o/p  of the following code
+  main()
+{
+ int i;
+ i = abc();
+ printf("%d"`i);
+}
+abc()
+{
+ _AX = 1000;
+}
+ERROR:No return statement
+ERROR:Undefined symbol _AX
+1000
+Garbage value will be displayed
+3
+char* myFunc (char *ptr) 
+{ ptr += 3;
+ return (ptr);} 
+int main()
+{
+ char *x` *y;
+ x = "HELLO";
+ y = myFunc (x);
+ printf ("y = %s \n"` y);
+}
+What will print when the sample code above is executed? 
+y = HELLO 
+y = ELLO
+y = LLO 
+y = LO
+4
+Code: 
+int x[] = { 1` 4` 8` 5` 1` 4 }; 
+int *ptr` y; 
+ptr  = x + 4; 
+y = ptr - x;
+What does y in the sample code above equal? 
+
+
+
+
+-3 
+0 
+4 
+4 + sizeof( int ) 
+3
+What are the following notations of defining functions known as? 
+    int abc(a`b)
+        int a; float b;
+                        {
+                        /* some code*/
+                        }
+
+
+
+
+ANSI C notation
+Kernighan & Ritche notation 
+PASCAL notation
+None of these
+2
+ #include 
+void main(){
+struct xx{
+int x;
+struct yy{
+char s;
+          struct xx *p;  };
+struct yy *q;
+};
+}
+Compiler Error:Declaration Terminated incorrectly
+Compiler error:Structures cannot be nested
+No error`No Warning
+Warning but no error
+1

@@ -1,0 +1,148 @@
+[Quiz]
+Title=SetA2
+Type=0
+Method=0
+Minimum=4
+TotalTime=9
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=9
+What is the output of the following code
+main() 
+{
+            int i=-1`j=-1`k=0`l=2`m;
+            m=i++&&j++&&k++||l++;
+            printf("%d %d %d %d %d"`i`j`k`l`m);
+}
+
+
+
+ 0 0 1 3 1
+0 0 1 3 0
+-1 -1 0 2 1
+-1 -1 0 2 0
+1
+What is the output of the following code
+main() 
+{
+ extern int i;
+ i=20; printf("%d"`sizeof(i));
+}
+
+
+
+
+Compiler error
+Linker error
+4
+None of these
+3
+main( ){
+  int a[ ] = {10`20`30`40`50}`j`*p;
+  for(j=0; j<5; j++)    {
+printf(“%d ” `*a); 
+a++;    }
+    p = a;
+   for(j=0; j<5; j++)       {
+printf(“%d  ” `*p); 
+p++;      }
+ }
+10 20 30 40 50 <Some garbage values>
+10 20 30 40 50
+Compiler error
+10 20 30 40 50 10 20 30 40 50 
+3
+#define FALSE -1
+            #define TRUE   1
+            #define NULL   0
+            main() {
+               if(NULL)
+                        puts("NULL");
+               else if(FALSE)
+                        puts("TRUE");
+               else
+                        puts("FALSE"); }
+FALSE
+NULL
+TRUE
+Compiler error:Cannot assign negative values to macros
+3
+main()
+{
+              int i=5`j=6`z;
+              printf("%d"`i+++j);
+             }
+
+
+
+
+
+11
+12
+Compiler error:Not enough parameters for printf
+Runtime error
+1
+char buf [] = "Hello world!"; 
+char * buf = "Hello world!"; 
+In terms of code generation` how do the two definitions of buf` both presented above` differ? 
+
+
+
+
+
+
+
+The first definition certainly allows the contents of buf to be safely modified at runtime; the second definition does not. 
+The first definition is not suitable for usage as an argument to a function call; the second definition is. 
+The first definition is not legal because it does not indicate the size of the array to be allocated; the second definition is legal. 
+They do not differ -- they are functionally equivalent.
+4
+#define int char ---7
+main() 
+{
+            int i=65;
+            printf("sizeof(i)=%d"`sizeof(i));
+}
+
+
+
+
+sizeof(i)=1
+sizeof(i)=2
+sizeof(i)=4
+error:macro cannot be defined for keywords
+1	
+#include
+main()
+{
+int a[2][2][2] = { {10`2`3`4}` {5`6`7`8}  };
+int *p`*q;
+p=&a[2][2][2];
+*q=***a;
+printf("%d----%d"`*p`*q);
+}
+
+1----SomeGarbageValue
+1----1
+SomeGarbageValue----1
+SomeGarbageValue----SomeGarbageValue
+3
+#include
+main(){
+struct xx
+{
+      int x=3;
+      char name[]="hello";
+ };
+struct xx *s;
+printf("%d"`s->x);
+printf("%s"`s->name);}
+3 hello
+Compiler Error
+Error:structure cannot be declared inside main
+None of these
+2

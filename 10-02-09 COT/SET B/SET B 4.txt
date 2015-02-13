@@ -1,0 +1,45 @@
+main( ){
+ void *vp;
+ char ch = ‘g’, *cp = “goofy”;
+ int j = 20;
+ vp = &ch;
+ printf(“%c”, *(char *)vp);
+ vp = &j;
+ printf(“%d”,*(int *)vp);
+ vp = cp;
+ printf(“%s”,(char *)vp + 3);}
+20ofy
+goo20
+20!
+g20fy
+4
+Which error are you likely to get when you run the following code 
+main(){
+struct emp{
+char name[20];
+float sal;
+};
+struct emp e[10];
+int i;
+for(i=0;i<9;i++)
+	scanf("%s%f",e[i].name,&e[i].sal);}
+Suspicious pointer conversion
+Floating point formats not linked
+Cannot use scanf() for structures
+Strings cannot be nested inside structures
+2
+What does the following program do?
+main(){
+unsigned int num ;
+int c=0;
+scanf("%u",&num);
+for(;num;num>>=1){
+	if(num &1)
+	c++; }
+printf("%d",c); }
+
+It counts the number of bits which are on in the number num
+It sets all bits in the number num to 1
+It sets all bits in the number num to 0
+None of the above 
+1

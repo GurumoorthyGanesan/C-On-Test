@@ -1,0 +1,100 @@
+[Quiz]
+Title=Emran Hasan Quiz
+Type=0
+Method=0
+Minimum=5
+TotalTime=14
+TimePerQuestion=0
+
+[User]
+TotalUser=2
+emran   |emran     |                         
+hasan   |hasan     |                         
+
+[Question Set]
+TotalQuestion=14
+Which one of the following is a valid email address ?
+admin@emran-hasan`com
+md-emran-hasan@yahoo`com
+ehasan@yahoo`com
+rubayet@emran-hasan`bd`com
+2
+The IRC first was first introduced by _______`
+Jarkko Oikarinen
+Jarko Oikarinen
+Jarkko Oikarin
+Jarkko Oikaren
+1
+Which one of the following is not a search engine ?
+Yahoo!
+Altavista
+Downseek
+Gogle
+4
+Which one of the following is a major function of the W3C?
+To set standards for web-development languages
+To approve connectivity to new networks
+To assign and distribute IP addresses
+To operate the root DNS server
+1
+What does http stand for ?
+hyper transaction transfer protocol
+hyper text transfer protocol
+hyper text transmission protocol
+hyper transmitted text protocol
+3
+What kind of web site MSN`com is ?
+Search Engine
+Web Portal
+News Site
+Entertainment Site
+2
+Which one of the following is an aspect of the Java programming language that makes it attractive for Web applications ?
+Platform independence
+Reliability
+Throughput
+Speed
+1
+Which one of the following BEST describes a URL ?
+A web address
+A lexical name registered with Internic
+A numeric IP address
+A standard syntax for identifying a resource on the Internet
+4
+Which one of the following is used to identify the content type of a Web document or file to a browser ?
+Windows registry entries
+The doctype field in the http header
+The protocol name
+MIME type
+2
+Which one of the following is NOT a common function of modern web browser ?
+Digitally signing user input
+Executing downloaded programs within the browser's environment
+Formatting user input into http requests
+Executing scripted commands
+1
+What DOM object is often used to enable HTML documents to have buttons that highlight when the mouse hovers over them ?
+Image
+Frame
+Applet
+Anchor
+3
+Which one of the following is NOT a common consideration when designing Web-based applications ?
+Client bandwidth requirements
+Network protocol support
+Network data security
+Server security
+1
+Which one of the following protocols is typically NOT supported by modern web browsers ?
+https
+http
+wais
+ssl
+3
+Which one of the following is NOT a free email service provider ?
+Big Foot
+Google
+Yahoo!
+Hotmail
+2
+

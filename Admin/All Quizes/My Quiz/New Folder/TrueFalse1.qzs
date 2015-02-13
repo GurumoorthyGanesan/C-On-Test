@@ -1,0 +1,26 @@
+[Quiz]
+Title=TRUE/FALSE Quiz 1
+Type=1
+Method=1
+Minimum=5
+TotalTime=1
+TimePerQuestion=5
+
+[User]
+TotalUser=1
+emran   |hasan     |                         
+
+[Question Set]
+TotalQuestion=2
+Titanic was a ship`
+True
+False
+ 
+ 
+1
+I am a boy`
+False
+True
+ 
+ 
+2

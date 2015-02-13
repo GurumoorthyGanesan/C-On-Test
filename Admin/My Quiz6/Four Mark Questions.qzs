@@ -1,0 +1,59 @@
+[Quiz]
+Title=4 Mark Questions
+Type=0
+Method=0
+Minimum=4
+TotalTime=9
+TimePerQuestion=
+
+[User]
+TotalUser=1
+p1|p1|
+
+[Question Set]
+TotalQuestion=3
+void main()
+{
+            int i;
+            char a[]="\0";
+            if(printf("%s\n"`a))
+                        printf("Ok here \n");
+            else
+                        printf("Forget it\n");
+}
+
+a)Ok here
+b)Forget it
+c)Balnk output
+d)Compiler error
+1 
+ void main()
+{
+            void *v;
+            int integer=2;
+            int *i=&integer;
+            v=i;
+            printf("%d"`(int*)*v);
+}
+
+
+a)2
+b)Garbage value
+c)Compiler Error
+d)0
+3
+ void main()
+{
+            int i=i++`j=j++`k=k++;
+printf(“%d%d%d”`i`j`k);
+}
+
+
+
+
+
+a)1234
+b)0000
+c)Garbage values
+d)Compiler error
+3

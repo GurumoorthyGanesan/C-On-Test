@@ -1,0 +1,150 @@
+char ** array [12][12][12]; 
+Consider array, defined above. Which one of the following definitions and initializations of p is valid? 
+
+
+
+
+
+
+
+
+char ** (* p) [12][12] = array;
+char ***** p = array; 
+char * (* p) [12][12][12] = array; 
+const char ** p [12][12][12] = array; 
+1
+Code:
+x = 3, counter = 0; 
+while ((x-1)) 
+{ 
+   ++counter; 
+   x--; 
+}
+Referring to the sample code above, what value will the variable counter have when completed? 
+
+
+0 
+1 
+2 
+3
+3 
+Code:
+char *ptr; 
+char myString[] = "abcdefg"; 
+ptr = myString; 
+ptr += 5;
+What string does ptr point to in the sample code above? 
+
+
+
+
+fg 
+efg 
+defg 
+None of the above 
+1
+In a C expression, how is a logical AND represented? 
+
+
+
+
+
+
+
+
+
+|| 
+.AND. 
+&& 
+.AND 
+3
+How do you include a system header file called sysheader.h in a C source file? 
+
+
+
+
+
+
+
+
+
+#include <sysheader.h> 
+#incl "sysheader.h" 
+#includefile <sysheader> 
+#include sysheader.h
+1 
+Which one of the following printf() format specifiers indicates to print a double value in decimal notation, left aligned in a 30-character field, to four (4) digits of precision? 
+
+
+
+
+
+
+
+
+
+%4.30e 
+%-4.30f 
+%-30.4f  
+%#30.4f 
+3
+penny = one 
+nickel = five 
+dime = ten 
+quarter = twenty-five 
+How is enum used to define the values of the American coins listed above? 
+
+
+
+
+
+enum coin {(penny,1), (nickel,5), (dime,10), (quarter,25)}; 
+enum coin ({penny,1}, {nickel,5}, {dime,10}, {quarter,25}); 
+enum coin {penny=1,nickel=5,dime=10,quarter=25};
+enum coin (penny=1,nickel=5,dime=10,quarter=25); 
+3
+In which standard library file is the function printf() located ?  
+
+
+
+
+
+
+
+
+
+stdio.h
+math.h
+dos.h
+conio.h
+1
+what would be the output of the following program?
+
+main()
+{
+	int i=2;
+	printf("\n%d%d",++i,++i);
+}
+
+
+
+A. 3 4      
+B. 4 3
+C. 4 4
+D. Output may vary from compiler to compiler
+1
+What would be the output of the following program?(1 mark)
+
+main( )
+{
+	float a= 0.7;
+	if(a<0.7f)
+	   printf("C");
+	else
+	   printf("C++");
+}
+A. C
+B. C++
+C. Error  
+D. None of the above
+3

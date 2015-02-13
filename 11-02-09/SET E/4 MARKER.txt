@@ -1,0 +1,45 @@
+What would be the output of the following program assuming that the array begins at location 1002?
+main()
+{
+int a[3][4]={
+		1,2,3,4,
+		5,6,7,8,
+		9,10,11,12
+	};
+printf("\n%u%u%u",a[0]+1,*(a[0]+1),*(*(a+0)+1));
+}
+1003 2 2
+1003 2 3
+1004 2 2 
+1 2 2
+3
+Whatwould be the output of the following code?
+main()
+{
+printf("%c",8["C-On-Test"]);
+}
+
+
+
+
+
+Compiler error
+Garbage value
+s
+t
+4
+Considering the adress of a to be 1001 what would be the output of the following code?
+main()
+{
+int a=10,*j;
+void *k;
+j=k=&a;
+j++;
+k++;
+printf("\n%u%u",j,k);
+}
+1001 1001 
+1002 1002
+11  11
+Compiler error
+4

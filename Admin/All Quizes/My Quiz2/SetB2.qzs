@@ -1,0 +1,148 @@
+[Quiz]
+Title=SetB2
+Type=0
+Method=0
+Minimum=4
+TotalTime=9
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=9
+Predict o/p  of the following code
+main()
+{
+            char *p;
+            printf("%d %d "`sizeof(*p)`sizeof(p));
+}
+ 
+
+
+
+2 2
+1 1
+1 2
+2 1
+3
+Predict o/p  of the following code
+ #include 
+main()
+{
+FILE *ptr;
+char i;
+ptr=fopen("zzz.c"`"r");
+while((i=fgetch(ptr))!=EOF)
+printf("%c"`i);
+}
+contents of zzz.c will be displayed
+.c file cannot be opened
+contents of zzz.c followed by an infinite loop
+None of these
+3
+Predict o/p  of the following code
+  main()
+{
+ int i;
+ i = abc();
+ printf("%d"`i);
+}
+abc()
+{
+ _AX = 1000;  }
+ERROR:No return statement
+ERROR:Undefined symbol _AX
+1000
+Garbage value will be displayed
+3
+What is the following notation of defining functions known as?
+    int abc(int a`float b)
+                        {
+                        /* some code */
+ 		}
+
+
+
+
+
+ANSI C notation
+Kernighan & Ritche notation 
+PASCAL notation
+None of these
+1
+void main()
+{
+            int k=ret(sizeof(float));
+            printf("\n here value is %d"`++k);
+}
+int ret(int ret)
+{
+            ret += 2.5;
+            return(ret);
+}
+here value is 2.5
+here value is 5
+here value is 7
+here value is 7.5
+3
+How do printf()'s format specifiers %e and %f differ in their treatment of floating-point numbers? 
+
+
+
+
+
+
+
+
+
+%e always displays an argument of type double in engineering notation; %f always displays an argument of type double in decimal notation. 
+%e expects a corresponding argument of type double; %f expects a corresponding argument of type float. 
+%e displays a double in engineering notation if the number is very small or very large. Otherwise` it behaves like %f and displays the number in decimal notation. 
+%e displays an argument of type double with trailing zeros; %f never displays trailing zeros. 
+1
+Predict o/p  of the following code
+main()
+{
+ int i`j;
+            for(i=0;i<=10;i++)
+            {
+            j+=5;
+            assert(i<5);
+            }
+}
+Compiler Error
+Runtime error
+Function assert not defined
+None of these
+2
+char* myFunc (char *ptr) 
+{ ptr += 3;
+ return (ptr);} 
+int main()
+{
+ char *x` *y;
+ x = "HELLO";
+ y = myFunc (x);
+ printf ("y = %s \n"` y);}
+What will print when the sample code above is executed? 
+y = HELLO 
+y = ELLO
+y = LLO 
+y = LO
+4
+int x = 3;  ---9
+if( x == 2 );
+  x = 0; 
+if( x == 3 )
+ x++; 
+else x += 2;
+What value will x contain when the sample code above is executed? 
+
+
+
+1 
+2 
+3 
+4 
+2

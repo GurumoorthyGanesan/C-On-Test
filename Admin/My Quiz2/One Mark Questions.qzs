@@ -1,0 +1,164 @@
+[Quiz]
+Title=1 Mark Questions
+Type=0
+Method=0
+Minimum=4
+TotalTime=7
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=10
+Predict o/p  of the following code
+main()
+{
+ 	printf("\nab");
+ 	printf("\bsi");
+ 	printf("\rha");
+}
+
+
+
+hai
+\nab\bsi\rha
+ha
+asiha
+1
+Predict o/p  of the following code
+#define square(x) x*x ---2
+main()
+{
+ 	int i;
+ 	i = 64/square(4);
+ 	printf("%d"`i);
+}
+
+
+ 4
+ 1
+ 64
+ Error
+3
+Predict o/p  of the following code
+main()
+{
+ 	printf("%p"`main);
+}
+
+
+
+
+
+Some address will be printed.
+main
+compiler error
+Linker error
+1
+Predict o/p  of the following code
+ enum colors {BLACK`BLUE`GREEN}  ---4
+ main()
+{
+ 	printf("%d..%d..%d"`BLACK`BLUE`GREEN);
+     	return(1);
+}
+
+
+
+ BLACK..`BLUE..`GREEN
+ BLACK..BLUE..GREEN
+ 0..1..2
+Garbage value will be printed
+3
+Predict o/p  of the following code
+main()
+{
+            char *cptr`c;
+            void *vptr`v;
+            c=10;  v=0;
+            cptr=&c; vptr=&v;
+            printf("%c%v"`c`v);
+}
+
+ 10 0
+ 10
+ Compiler error
+ Illegal use of pointer
+3
+what will be the position of the file marker?
+             fseek(ptr`0`SEEK_SET);
+
+
+
+
+
+
+
+
+Start of file
+End of file
+Current position of file
+Syntax error
+1
+What does this imply 
+ char* const a; 
+
+
+
+
+
+
+
+
+pointer to a constant char
+constant pointer to char
+both of above
+none of above
+2 
+Which one of the following C operators is right associative?
+
+
+
+
+
+
+
+
+
+ =  
+ [] 
+ ^ 
+ -> 
+1
+What does the "auto" specifier do?
+
+
+
+
+
+
+
+
+
+It automatically initializes a variable to 0;. 
+It indicates that a variable's memory will automatically be preserved.
+It automatically increments the variable when used. 
+It automatically initializes a variable to NULL. 
+2
+Global variables that are declared static are ____________.
+Which one of the following correctly completes the sentence above?
+
+
+
+
+
+
+
+ 
+Internal to the current translation unit 
+Visible to all translation units 
+Read-only subsequent to initialization 
+Allocated on the heap
+4
+

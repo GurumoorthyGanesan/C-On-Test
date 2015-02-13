@@ -1,0 +1,150 @@
+#include 
+main(){
+ 	int i=1,j=2;
+ 	switch(i)
+  	{
+ 		case 1:  printf("GOOD");
+                  		break;
+ 		case j:  printf("BAD");
+               		break;
+ 	}}
+ GOOD
+ BAD
+ GOOD BAD
+ Compiler Error
+4
+void main()
+{
+            int i=5;
+            printf("%d",i+++++i);
+}
+
+
+
+
+
+ 5
+ 11
+ 12
+ Compiler error
+4 
+main() 
+{
+            int k=1;
+            printf("%d==1 is ""%s",k,k==1?"TRUE":"FALSE");
+}
+
+
+
+
+
+ 1==1 is FALSE
+ 1==1=1
+ 1==1 is TRUE
+ Compiler error
+3
+main() 
+{
+            int y;
+            scanf("%d",&y); // input given is 2000
+            if( (y%4==0 && y%100 != 0) || y%100 == 0 )
+                 printf("%d is a leap year");
+            else
+                 printf("%d is not a leap year");
+}
+
+ 2000 is a leap year
+ 2000 is not a leap year
+ 2000
+ Compiler error
+1
+int i=10;
+main(){  
+ 	extern int i;{
+              	int i=20;{
+                         	const volatile unsigned i=30;
+                         	printf("%d",i);}
+                  	printf("%d",i);
+               }
+             printf("%d",i);
+ }
+ 30,20,30
+ 30,20,10
+ 30,20,20
+ 30,10,20
+2
+Is the following statement a declaration/definition. 
+int (*x)[10];
+
+
+
+
+
+
+
+
+Declaration
+Definition
+Both of the above
+None of the above
+2
+What is a difference between a declaration and a definition of a variable? 
+
+
+
+
+
+
+
+
+
+There is no difference between them. 
+A definition occurs once, but a declaration may occur many times. 
+A declaration occurs once, but a definition may occur many times.
+Both can occur multiple times, but a definition must occur first. 
+3
+What will print when the sample code above is executed? 
+
+
+
+
+
+
+
+
+
+z=0.00 
+z=1.00
+z=1.50 
+z=2.00 
+2
+Which one of the following variable names is NOT valid? 
+
+
+
+
+
+
+
+
+
+go_cart 
+go4it 
+4season 
+_what 
+3
+main() 
+{
+ 	int i=_l_abc(10);
+            printf("%d\n",--i);
+}
+int _l_abc(int i)
+{
+ 	return(i++);
+}
+
+ 10
+ 11
+ 9
+ 8
+3

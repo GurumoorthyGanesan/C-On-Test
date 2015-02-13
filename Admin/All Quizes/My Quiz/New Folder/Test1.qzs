@@ -1,0 +1,105 @@
+[Quiz]
+Title=Test Quiz 1
+Type=0
+Method=0
+Minimum=5
+TotalTime=25
+TimePerQuestion=15
+
+[User]
+TotalUser=1
+admin   |ndc       |                         
+
+[Question Set]
+TotalQuestion=15
+If (x-1)(x-2)(x²-4)=0 then what are the possible values of x ?
+-2 only
+2 only
+1 and 2 only
+1`-2 or 2 only
+4
+What is the next number in the following series : 9`8`6`3```` ?
+0
+2
+-1
+1
+3
+For all numbers x`y` and z` the operation x*y=x-xy` What is x*(y*z) ?
+x-xy+xyz
+x-xy-xz-xyz
+x²-xy-x²yz
+x+xy-xz+xy²z
+1
+What is the largest possible value of the expression : (x+2)(3-x)(2+x)²(2x-6)(2x+4) ?
+-576
+12
+0
+Cannot be determined
+3
+In a group of 15` 7 have studied Statistics` 8 have studied Computer` and 3 have not studied either` How many of these studied both ?
+0
+4
+5
+3
+4
+A truck and a car leave from the same location at 9 AM` The truck travels directly north at 40 miles/hour while the car travels directly east at 30 miles/hour` How far apart are they at 1 PM ?
+150 miles
+280 miles
+200 miles
+350 miles
+3
+If 4 DRAX=5 LINX and 2 LINX=6 PINX` 24 DRAX will equal how many PINX ?
+90
+60
+45
+80
+1
+Two clocks are set to the same time` but one clock loses 1 minute every hour and the other clock gains 2 minutes every 3 hours` After 24 hours` what will be the differece between the two clocks time ?
+24
+40
+48
+60
+2
+What is the value of this expression : (x-a)(x-b)(x-c)```````(x-y)(x-z) ?
+Any number greater than 0
+Between 0 and 2`14`74`83`648
+Only 0
+Cannot be determined
+3
+How many words can be formed using the the characters of the word NDCQUIZ ?
+720
+2400
+1040
+5040
+4
+If 1/X=3/2 and 1/N=4/9 then what is the value of XN-1/XN ?
+2/3
+5/6
+1
+0
+2
+Which of the following pair best expresses the relationship similar to the pair` CHAPTER:NOVEL ?
+epilogue:play
+stanza:poem
+verse:drama
+rhyme:meter
+2
+Which of the following pair best expresses the relationship similar to the pair` ANGER:FURY ?
+infatuation:affection
+love:adoration
+sullen:punting
+resentment:scowl
+2
+'The scientist who _______ at his task despite failure after failure` exemplifies _______ or strength of character`' What words are appropriate for the blanks of this sentence ?
+persists```determination
+rejoices```preserverance
+balks```humility
+surrenders```fortitude
+1
+What does ADB stand for ?
+Asian Development Bank
+Asian Domestic Bank
+Asian Democracy Bureau
+Asian D
+1
+

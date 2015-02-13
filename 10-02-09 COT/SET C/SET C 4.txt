@@ -1,0 +1,45 @@
+Predict o/p  of the following code
+  main ( )
+{
+ static char *s[ ]  = {“black”, “white”, “yellow”, “violet”};
+ char **ptr[ ] = {s+3, s+2, s+1, s}, ***p;
+ p = ptr;
+ **++p;
+ printf(“%s”,*--*++p + 3);
+}
+
+te
+ck
+ow
+et
+2
+main() {
+            int i=10;
+            void pascal f(int,int,int);
+f(i++,i++,i++);
+            printf(" %d",i);
+}
+void pascal f(integer :i,integer:j,integer :k)
+{ 
+write(i,j,k); 
+}
+Compiler error:  unknown type integer
+Compiler error:  undeclared function write
+Both of above
+None of above
+1
+#include"alloc.h"
+#define MAXROW 3
+#define MAXCOL 4
+main()
+{
+int(*p)[MAXCOL];
+p=(int(*)[MAxcol])malloc(MAXROW *sizeof(*p));
+printf("%d%d",sizeof(p),sizeof(*p));
+}
+
+2 4
+2 8
+2 2
+4 4
+2

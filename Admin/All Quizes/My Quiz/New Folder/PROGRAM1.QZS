@@ -1,0 +1,47 @@
+[Quiz]
+Title=Programming EASY
+Type=0
+Method=1
+Minimum=5
+TotalTime=5
+TimePerQuestion=10
+
+[User]
+TotalUser=4
+emran   |emran     |                         
+hasan   |hasan     |                         
+andalib |andalib   |                         
+rubayet |rubayet   |                         
+
+[Question Set]
+TotalQuestion=5
+Which one of the following describes the name for an algorithm that solves a problem by calling itself ?
+Reserved  
+Recursive  
+Repetitive  
+Repeating  
+2
+Which of the following criteria must be met for binary sort ?
+Data must be stored in an Stack
+Data must be numerical
+Data must be sorted
+Data must be in ASCII format
+3
+Which one of the following is NOT a data structure ?
+Array
+Table
+Stack
+Tree
+2
+Which one of the following statements will open a random-access file if Quick BASIC ?
+OPEN "Q`DAT" FOR INPUT AS #1
+OPEN "I"`2`"Q`DAT" FOR RANDOM
+OPEN "Q`DAT" FOR RANDOM AS #1 LEN=10
+OPEN "Q`DAT" FOR RANDOM AS #1
+3
+Which one of the following statements is not a valid Quick BASIC statement ?
+CLS 1
+VIEW SCREEN 1 TO 10
+PRINT "NDC" ;" ";"IT Festival"`"2002"
+PRINT UCASE("it") + LCASE("festival")
+4

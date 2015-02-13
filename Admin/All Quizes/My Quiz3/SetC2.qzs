@@ -1,0 +1,148 @@
+[Quiz]
+Title=SetC2
+Type=0
+Method=0
+Minimum=4
+TotalTime=9
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=9
+Predict o/p  of the following code
+ main() 
+{
+int i;
+printf("%d"`scanf("%d"`&i));  // value 10 is given as input here
+}
+
+
+
+
+1
+0
+10
+Compiler error
+1
+Code: 
+int x[] = { 1` 4` 8` 5` 1` 4 }; 
+int *ptr` y; 
+ptr  = x + 4; 
+y = ptr - x;
+What does y in the sample code above equal? 
+
+
+
+
+-3 
+0 
+4 
+4 + sizeof( int ) 
+3
+void myFunc (int x) { 
+   if (x > 0)
+   myFunc(--x); 
+   printf("%d` "` x); 
+} 
+int main() { 
+   myFunc(5); 
+   return 0; 
+}
+What will the above sample code produce when executed? 
+1` 2` 3` 4` 5` 5` 
+4` 3` 2` 1` 0` 0` 
+5` 4` 3` 2` 1` 0` 
+0` 0` 1` 2` 3` 4` 
+4 
+What are the following notations of defining functions known as? 
+    int abc(a`b)
+        int a; float b;
+                        {
+                        /* some code*/
+                        }
+
+
+
+
+ANSI C notation
+Kernighan & Ritche notation 
+PASCAL notation
+None of these
+2
+Code:
+int x = 0; 
+for ( ; ; ) 
+{ 
+ if (x++ == 4)
+  break; 
+ continue; 
+} 
+printf("x=%d\n"` x);
+What will be printed when the sample code above is executed? 
+x=1 
+x=4 
+x=5
+x=6 
+3
+  #include 
+void main(){
+struct xx{
+int x;
+struct yy{
+char s;
+          struct xx *p;  };
+struct yy *q;
+};
+}
+Compiler Error:Declaration Terminated incorrectly
+Compiler error:Structures cannot be nested
+No error`No Warning
+Warning but no error
+1
+int x = 5; 
+int y = 2; 
+char op = '*'; 
+switch (op) 
+{ 
+  default : x += 1; 
+  case '+' : x += y; /*It will go to all the cases*/
+  case '-' : x -= y; 
+}
+After the sample code above has been executed` what value will the variable x contain? 
+4 
+5 
+6 
+7 
+3
+int y[4] = {6` 7` 8` 9}; 
+int *ptr = y + 2; 
+printf("%d\n"` ptr[ 1 ] );  /*ptr+1 == ptr[1]*/
+What is printed when the sample code above is executed? 
+
+
+
+
+
+
+6 
+7 
+8 
+9 
+4
+  void main() 
+{
+            unsigned giveit=-1;
+            int gotit;
+            printf("%u "`++giveit);
+            printf("%u \n"`gotit=--giveit);
+}
+
+
+
+0 0
+0 65535
+65535 0
+65535 65535
+2

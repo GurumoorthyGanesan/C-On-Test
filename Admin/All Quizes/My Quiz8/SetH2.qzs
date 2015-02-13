@@ -1,0 +1,147 @@
+[Quiz]
+Title=SetH2
+Type=0
+Method=0
+Minimum=4
+TotalTime=14
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=9
+Code:
+int x = 0; 
+for ( ; ; ) 
+{ 
+ if (x++ == 4)
+  break; 
+ continue; 
+} 
+printf("x=%d\n"` x);
+What will be printed when the sample code above is executed? 
+x=1 
+x=4 
+x=5
+x=6 
+3
+int y[4] = {6` 7` 8` 9}; 
+int *ptr = y + 2; 
+printf("%d\n"` ptr[ 1 ] );  /*ptr+1 == ptr[1]*/
+What is printed when the sample code above is executed? 
+
+
+
+
+
+
+6 
+7 
+8 
+9 
+4
+Code:
+long factorial (long x) 
+{ 
+ ???? 
+ return x * factorial(x - 1); 
+}
+With what do you replace the ???? to make the function shown above return the correct answer? 
+
+
+
+if (x == 0) return 0; 
+return 1; 
+if (x == 0) return 1; 
+if (x <= 1) return 1; 
+4
+main() 
+{
+              printf("%x"`-1<<4);
+}
+
+
+
+
+
+
+0
+1
+fff0
+0fff
+3
+#include 
+main()
+{
+            int x`y=2`z`a;
+            if(x=y%2) z=2;
+            a=2;
+            printf("%d %d "`z`x);
+}
+
+
+Garbage-value 0
+Garbage-value Garbage-value
+2 Garbage-value
+2 0 
+1
+main() 
+{
+            unsigned int i=10;
+            while(i-->=0)
+                        printf("%u "`i);
+ 
+}
+
+
+
+9 8 7 6 5 4 3 1 0 65535 65534 65533
+10 9 8 7 6 5 4 3 2 1 0
+10 9 8 7 6 5 4 3 2 1 0 65535 65534
+9 8 7 6 5 4 3 2 1 0
+3
+main()
+{
+ show();
+}
+void show()
+{
+ printf("I'm the greatest");
+}
+
+
+I'm the greatest
+Compiler Error
+Linker error
+None of the above
+2
+int x[] = {1` 2` 3` 4` 5}; 
+int u; 
+int *ptr = x; 
+???? 
+for( u = 0; u < 5; u++ ){
+ printf("%d-"` x[u]); 
+}
+printf( "\n" ); 
+Which one of the following statements could replace the ???? in the code above to cause the string 1-2-3-10-5- to be printed when the code is executed? 
+*ptr + 3 = 10; 
+*ptr[ 3 ] = 10; 
+*(ptr + 3) = 10;
+*(ptr[ 3 ]) = 10; 
+3
+What is the output of the program given below
+ 
+main()
+    {
+       signed char i=0;
+       for(;i>=0;i++) ;
+       printf("%d\n"`i);
+    }
+
+
+-127
+127
+128
+-128
+4

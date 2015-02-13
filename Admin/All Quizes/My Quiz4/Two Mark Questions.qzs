@@ -1,0 +1,148 @@
+[Quiz]
+Title=2 Mark Questions
+Type=0
+Method=0
+Minimum=4
+TotalTime=14
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=9
+Gues the output of the following code: 
+   main()
+{
+int i=0;
+ 
+for(;i++;printf("%d"`i)) ;
+printf("%d"`i);
+}
+
+
+0
+1
+Not enough parameters for FOR
+printf cannot be used in for loop
+2
+Code:
+long factorial (long x) 
+{ 
+ ???? 
+ return x * factorial(x - 1); 
+}
+With what do you replace the ???? to make the function shown above return the correct answer? 
+
+
+
+if (x == 0) return 0; 
+return 1; 
+if (x == 0) return 1; 
+if (x <= 1) return 1; 
+4
+Code:
+FILE *f = fopen( fileName` "r" ); 
+readData( f ); 
+if( ???? ) 
+{ 
+ puts( "End of file was reached" ); 
+}
+Which one of the following can replace the ???? in the code above to determine if the end of a file
+ has been reached? 
+
+f == EOF
+feof( f ) 
+eof( f ) 
+f == NULL 
+1
+Code:
+char *buffer = "0123456789"; 
+char *ptr = buffer; 
+ptr += 5; 
+printf( "%s "` ptr ); 
+printf( "%s\n"` buffer );
+What will be printed when the sample code above is executed? 
+
+
+
+0123456789 56789 
+5123456789 5123456789 
+0123456789 0123456789 
+56789 0123456789 
+4
+main() 
+{
+            int c=- -2;
+            printf("c=%d"`c);
+}
+
+
+
+
+
+c=-2
+c=2
+Compiler error
+c=1
+2
+main() 
+{
+              printf("%x"`-1<<4);
+}
+
+
+
+
+
+
+0
+1
+fff0
+0fff
+3
+main() 
+{
+            unsigned int i=10;
+            while(i-->=0)
+                        printf("%u "`i);
+ 
+}
+
+
+
+9 8 7 6 5 4 3 1 0 65535 65534 65533
+10 9 8 7 6 5 4 3 2 1 0
+10 9 8 7 6 5 4 3 2 1 0 65535 65534
+9 8 7 6 5 4 3 2 1 0
+3
+#include 
+main()
+{
+            int x`y=2`z`a;
+            if(x=y%2) z=2;
+            a=2;
+            printf("%d %d "`z`x);
+}
+
+
+Garbage-value 0
+Garbage-value Garbage-value
+2 Garbage-value
+2 0 
+1
+main() 
+{
+            int i=0;
+            while(+(+i--)!=0)
+                        i-=i++;
+            printf("%d"`i);
+}
+
+
+
+0
+1
+-1
+Compiler Error
+3

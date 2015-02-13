@@ -1,0 +1,58 @@
+[Quiz]
+Title=SetH4
+Type=0
+Method=0
+Minimum=4
+TotalTime=9
+TimePerQuestion=
+
+[User]
+TotalUser=0
+
+[Question Set]
+TotalQuestion=3
+#include"alloc`h"
+#define MAXROW 3
+#define MAXCOL 4
+main()
+{
+int(*p)[MAXCOL];
+p=(int(*)[MAxcol])malloc(MAXROW *sizeof(*p));
+printf("%d%d"`sizeof(p)`sizeof(*p));
+}
+
+2 4
+2 8
+2 2
+4 4
+2
+main( ){
+ void *vp;
+ char ch = ‘g’` *cp = “goofy”;
+ int j = 20;
+ vp = &ch;
+ printf(“%c”` *(char *)vp);
+ vp = &j;
+ printf(“%d”`*(int *)vp);
+ vp = cp;
+ printf(“%s”`(char *)vp + 3);}
+20ofy
+goo20
+20!
+g20fy
+4
+What would be the output of the following code?
+main()
+{	char huge*a=0x00000120;
+	char huge*b=0x00100020;
+	char huge*c=0x00120000;
+
+	if(a==b)	printf("\nHello");
+	if (a==c)  printf(" Hi");
+	if (b==c)	printf(" Hello Hi");
+	if(a>b && a>c && b>c) printf("\nBye");}
+Bye
+Hello Hi Bye
+Hello Hi Hello hi
+Declaration Syntax Error
+3
