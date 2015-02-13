@@ -1,0 +1,8 @@
+This software is made by Milind Gokhale and Abhishek Rakshe.
+
+• This was a Visual Basic Project made for conducting C-On-Test online quiz in Modern College 2009 for MPulse Technical festival. 
+• Hence this software was developed as a generic software to conduct online tests, randomize questions.
+• Any question bank along with answers can be given in text format to create a new test.
+• It can be deployed on Windows Platform and setup as a desktop application to run across multiple PCs as multiple instances.
+• It has features like timed tests, participant management, real-time score reports.
+
